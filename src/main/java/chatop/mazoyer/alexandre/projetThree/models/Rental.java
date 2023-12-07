@@ -15,23 +15,23 @@ public class Rental {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @NotBlank(message = "Le nom est obligatoire")
+
     @NotNull
     private String name;
     
-    @NotBlank(message = "La surface est obligatoire")
+
     @NotNull
     private Double surface;
     
-    @NotBlank(message = "Le prix est obligatoire")
+
     @NotNull
     private Double price;
     
-    @NotBlank(message = "L'image est obligatoire")
+
     @NotNull
     private String picture;
     
-    @NotBlank(message = "La descritpion est obligatoire")
+
     @Size(max = 5000)
     @NotNull
     private String description;
@@ -41,12 +41,9 @@ public class Rental {
     private Date updated_at;
     
     
-
     @ManyToOne
     @JoinColumn(name = "owner_id", nullable = false)
     private User owner;
-
-  
 
 
 	public Long getId() {
