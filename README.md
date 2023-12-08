@@ -21,11 +21,6 @@ Le Chatop-backend est le composant backend d'un portail de mise en relation entr
 
 Notre backend, développé avec Spring Boot, gère les fonctionnalités essentielles de cette plateforme, offrant une base solide pour l'expansion future de notre service.
 
-
-## Présentation
-
-Une brève description de ce que fait votre application et pourquoi elle est utile.
-
 ## Technologies
 
 - [Spring Boot](https://spring.io/projects/spring-boot) - Framework de développement d'applications Java basé sur Spring.
