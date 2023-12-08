@@ -47,7 +47,6 @@ public class RentalService {
 		rental.setPicture(storageService.save(files));
 		rental.setCreated_at(date);
 		rental.setOwner(user);
-		System.out.println(user.getId());
 		rentalRepository.save(rental);
 
 		return new ResponseEntity<>(new MessageResponse("Rental created !"), HttpStatus.ACCEPTED);
