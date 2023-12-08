@@ -24,7 +24,7 @@ Notre backend, développé avec Spring Boot, gère les fonctionnalités essentie
 ## Technologies
 
 - [Spring Boot](https://spring.io/projects/spring-boot) - Framework de développement d'applications Java basé sur Spring.
-- [Autres dépendances et bibliothèques]
+
 
 ## Prérequis
 
