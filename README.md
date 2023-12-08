@@ -1,9 +1,5 @@
 # Chatop-backend
 
-# Nom de votre Projet
-
-Description courte du projet en une ou deux phrases.
-
 ## Table des matières
 
 - [Présentation](#présentation)
@@ -11,6 +7,20 @@ Description courte du projet en une ou deux phrases.
 - [Prérequis](#prérequis)
 - [Installation](#installation)
 - [Configuration](#configuration)
+- [Swagger](#Swagger)
+
+## Présentation
+
+Le Chatop-backend est le composant backend d'un portail de mise en relation entre les futurs locataires et les propriétaires pour des locations saisonnières. Initialement axé sur la côte basque, notre projet vise à faciliter la recherche, la réservation et la gestion des locations de vacances. Nous connectons les locataires à des propriétaires de manière transparente, offrant une expérience utilisateur fluide.
+
+### Objectifs
+
+- Simplifier la recherche de locations saisonnières sur la côte basque, offrant aux utilisateurs une variété d'options adaptées à leurs besoins.
+- Faciliter la communication entre les locataires et les propriétaires pour garantir une expérience de location agréable.
+- Élargir progressivement notre portail pour couvrir des locations saisonnières dans toute la France.
+
+Notre backend, développé avec Spring Boot, gère les fonctionnalités essentielles de cette plateforme, offrant une base solide pour l'expansion future de notre service.
+
 
 ## Présentation
 
@@ -36,8 +46,23 @@ Décrivez les logiciels ou les composants nécessaires à l'installation et à l
 
 ## Configuration application properties
 
-1. configuration de l'url source (spring.datasource.url=jdbc:mysql://localhost:3306/chatop)
-2. configuration de la data source username (spring.datasource.username=username)
-3. configuration de la data source password (spring.datasource.password=password)
-4. configuration du port (server.port=3001)
-5. configuration du jwt secret (wcslyon.app.jwtSecret=votreSecret)
+# Configuration de l'URL source
+spring.datasource.url=jdbc:mysql://localhost:3306/chatop
+
+# Configuration de la data source username
+spring.datasource.username=username
+
+# Configuration de la data source password
+spring.datasource.password=password
+
+# Configuration du port
+server.port=3001
+
+# Configuration du JWT secret
+wcslyon.app.jwtSecret=votreSecret
+
+## Swagger UI
+
+L'interface Swagger UI est disponible à l'adresse suivante :
+
+[Swagger UI](http://localhost:8080/swagger-ui/)
