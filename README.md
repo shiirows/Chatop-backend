@@ -7,7 +7,7 @@
 - [Prérequis](#prérequis)
 - [Installation](#installation)
 - [Configuration](#configuration)
-- [Swagger](#Swagger)
+- [Swagger](#swagger)
 
 ## Présentation
 
