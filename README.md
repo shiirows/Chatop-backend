@@ -7,7 +7,7 @@
 - [Prérequis](#prérequis)
 - [Installation](#installation)
 - [Configuration MySQL](#configuration-MySQL)
-- [Configuration de l'application properties](#configuration-de-l'application-properties)
+- [Configuration de l'application properties](#configuration-de-lapplication-properties)
 - [Swagger](#swagger)
 
 ## Présentation
