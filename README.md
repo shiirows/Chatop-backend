@@ -6,7 +6,7 @@
 - [Technologies](#technologies)
 - [Prérequis](#prérequis)
 - [Installation](#installation)
-- [Configuration](#configurationapplicationproperties)
+- [Configuration](#configuration-application-properties)
 - [Swagger](#swagger)
 
 ## Présentation
