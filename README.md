@@ -6,7 +6,8 @@
 - [Technologies](#technologies)
 - [Prérequis](#prérequis)
 - [Installation](#installation)
-- [Configuration](#configuration-application-properties)
+- [Configuration MySQL](#configuration-MySQL)
+- [Configuration de l'application properties](#configuration-de-l'application-properties)
 - [Swagger](#swagger)
 
 ## Présentation
@@ -30,6 +31,7 @@ Notre backend, développé avec Spring Boot, gère les fonctionnalités essentie
 
 - [Java 17](https://www.oracle.com/java/)
 - [Maven](https://maven.apache.org/)
+- [MySQL](https://www.mysql.com/)
 
 ## Installation
 
@@ -37,22 +39,30 @@ Notre backend, développé avec Spring Boot, gère les fonctionnalités essentie
 2. Allez dans le répertoire du projet : `cd Chatop-backend`
 3. Compilez le projet : `mvn clean install`
 
-## Configuration application properties
+## Configuration MySQL
+
+1. Créer un nouveau schéma `chatop` dans votre instance MySQL. Vous pouvez utiliser un outil comme MySQL Workbench ou exécuter la commande SQL suivante :
+
+   ```sql
+   CREATE SCHEMA IF NOT EXISTS chatop DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+
+
+## Configuration de l'application properties
 
 - Configuration de l'URL source
-spring.datasource.url=jdbc:mysql://localhost:3306/chatop
+`spring.datasource.url=jdbc:mysql://localhost:3306/chatop`
 
 - Configuration de la data source username
-spring.datasource.username=username
+`spring.datasource.username=votreNomUtilisateurMySQL`
 
 - Configuration de la data source password
-spring.datasource.password=password
+`spring.datasource.password=votreMotDePasseMySQL`
 
 - Configuration du port
-server.port=3001
+`server.port=3001`
 
 - Configuration du JWT secret
-wcslyon.app.jwtSecret=votreSecret
+`wcslyon.app.jwtSecret=votreSecret`
 
 ## Swagger
 
