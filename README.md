@@ -54,7 +54,7 @@ server.port=3001
 # Configuration du JWT secret
 wcslyon.app.jwtSecret=votreSecret
 
-## Swagger UI
+## Swagger
 
 L'interface Swagger UI est disponible à l'adresse suivante :
 
