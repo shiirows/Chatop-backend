@@ -28,9 +28,7 @@ Notre backend, développé avec Spring Boot, gère les fonctionnalités essentie
 
 ## Prérequis
 
-Décrivez les logiciels ou les composants nécessaires à l'installation et à l'exécution de votre application.
-
-- [Java](https://www.oracle.com/java/)
+- [Java 17](https://www.oracle.com/java/)
 - [Maven](https://maven.apache.org/)
 
 ## Installation
