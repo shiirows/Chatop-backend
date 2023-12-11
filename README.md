@@ -39,19 +39,19 @@ Notre backend, développé avec Spring Boot, gère les fonctionnalités essentie
 
 ## Configuration application properties
 
-# Configuration de l'URL source
+- Configuration de l'URL source
 spring.datasource.url=jdbc:mysql://localhost:3306/chatop
 
-# Configuration de la data source username
+- Configuration de la data source username
 spring.datasource.username=username
 
-# Configuration de la data source password
+- Configuration de la data source password
 spring.datasource.password=password
 
-# Configuration du port
+- Configuration du port
 server.port=3001
 
-# Configuration du JWT secret
+- Configuration du JWT secret
 wcslyon.app.jwtSecret=votreSecret
 
 ## Swagger
